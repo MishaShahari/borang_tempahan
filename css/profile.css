@@ -1,0 +1,45 @@
+/* profile.css */
+body {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      color: #000; /* Initial and final color */
+    }
+    50% {
+      color: red; /* Blink color */
+    }
+  }
+  
+  a.blink {
+    text-decoration: none;
+    animation: blink 1s infinite;
+  }
+  
+  img {
+    width: 200px;
+    height: 270px;
+    animation: fadeInAndRollIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeInAndRollIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+  text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  fieldset {
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Add other common styles here */
+  
+  /* form.css */
+  .logo-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo-details img {
+    max-height: 120px;
+  }
+  
+  .p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .tabbed-line {
+    padding-left: 7.9em;
+  }
+  
+  .tabbed {
+    padding-left: 3.7em;
+  }
+  
+  label {
+    padding-left: 20px;
+    text-align: justify;
+  }
+  
+  /* Add other form-specific styles here */
+  

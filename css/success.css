@@ -1,0 +1,76 @@
+/* success.css */
+body {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+    text-align: left;
+  }
+  
+  fieldset {
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .a {
+    text-align: center;
+  }
+  
+  .logo-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo-details img {
+    max-height: 120px;
+  }
+  
+  .p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .tabbed-line {
+    padding-left: 7.9em;
+  }
+  
+  .tabbed {
+    padding-left: 3.7em;
+  }
+  
+  /* Added styles for consistent indentation */
+  fieldset p {
+    margin: 10px 0;
+    padding-left: 2em;
+  }
+  
+  fieldset p b {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  label {
+    padding-left: 20px;
+    text-align: justify;
+  }
+  
